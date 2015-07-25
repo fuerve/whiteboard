@@ -7,6 +7,6 @@ So far, the goal is to account for the following interview questions:
 * Linked hash map (hash table that allows iteration over its keys in the order in which they were inserted).
 * Cartesian product of strings.
 * Postfix to infix arithmetic conversion.
-* Merge two sorted arrays of integers.
-* Reversal of a linked list.
+* Merge two sorted arrays of integers. - COMPLETE
+* Reversal of a linked list. - COMPLETE
 * Circularly linked list of parameterized type with support for null entries.
