@@ -6,10 +6,12 @@ package com.fuerve.whiteboard.mergesortedarrays;
 public class SortedArrayMerger {
     
     /**
-     * Two-argument implementation.
+     * Two-argument implementation.  Linear in the sum of the length of both arrays.
      * @param a The first array.
      * @param b The second array.
-     * @return The sorted merger of the values contained in both arrays.
+     * @return The sorted merger of the values contained in both arrays.  In the event that
+     * one input array is null or empty, returns the other.  If both inputs are null or empty,
+     * returns the empty array.
      */
     public static int[] merge(final int[] a, final int[] b) {
         if (a == null && b == null) {
