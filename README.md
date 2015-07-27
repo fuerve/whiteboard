@@ -9,4 +9,4 @@ So far, the goal is to account for the following interview questions:
 * Postfix to infix arithmetic conversion. - COMPLETE
 * Merge two sorted arrays of integers. - COMPLETE
 * Reversal of a linked list. - COMPLETE
-* Circularly linked list of parameterized type with support for null entries.
+* Circularly linked list of parameterized type with support for null entries. - COMPLETE
