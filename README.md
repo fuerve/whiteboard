@@ -3,7 +3,7 @@ This is a repository of implementations for whiteboard questions that I've gotte
 
 So far, the goal is to account for the following interview questions:
 
-* Shortest path on an undirected graph.
+* Shortest path on an undirected graph. - COMPLETE
 * Linked hash map (hash table that allows iteration over its keys in the order in which they were inserted).
 * Cartesian product of strings.
 * Postfix to infix arithmetic conversion. - COMPLETE
