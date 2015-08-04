@@ -15,9 +15,10 @@ So far, the goal is to account for the following interview questions:
 ## First goal complete.  Secondary goal follows.
 In addition, I want to knock out some implementations of some basic data structure and algorithm problems, just to brush up.
 
-* Dynamic array.
-* Stack.
-* Queue.
+* Dynamic array (ArrayList). - COMPLETE
+* Circular Linked List (LinkedList).
+* Stack (ArrayDeque).
+* Queue (ArrayDeque).
 * Tree.
 * Directed acyclic graph.
 * Heap.
