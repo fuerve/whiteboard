@@ -16,7 +16,7 @@ So far, the goal is to account for the following interview questions:
 In addition, I want to knock out some implementations of some basic data structure and algorithm problems, just to brush up.
 
 * Dynamic array (ArrayList). - COMPLETE
-* Circular Linked List (LinkedList).
+* Doubly Linked List (LinkedList). - COMPLETE
 * Stack (ArrayDeque).
 * Queue (ArrayDeque).
 * Tree.
