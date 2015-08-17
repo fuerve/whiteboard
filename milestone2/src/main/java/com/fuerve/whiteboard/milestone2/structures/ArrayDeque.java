@@ -84,7 +84,7 @@ public class ArrayDeque<T> implements Deque<T> {
         if (size == 0) {
             return false;
         }
-        for (int i = head; i <= tail; i++) {  // TODO: I think I have an off-by-one issue here.
+        for (int i = head; i <= tail; i++) {
             if (store[i] == null || element == null) {
                 if (store[i] == element) {
                     return true;
@@ -292,6 +292,12 @@ public class ArrayDeque<T> implements Deque<T> {
             } else {
                 return store[current++];
             }
+        }
+
+        @Override
+        public void remove() {
+            // TODO Auto-generated method stub
+            
         }
         
     }

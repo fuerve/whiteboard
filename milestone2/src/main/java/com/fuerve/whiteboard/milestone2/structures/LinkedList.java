@@ -484,6 +484,12 @@ public class LinkedList<T> implements List<T>, Deque<T> {
                 return value;
             }
         }
+
+        @Override
+        public void remove() {
+            // TODO Auto-generated method stub
+            
+        }
         
     }
 

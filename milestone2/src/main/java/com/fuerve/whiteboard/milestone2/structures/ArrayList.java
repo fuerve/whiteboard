@@ -295,5 +295,11 @@ public class ArrayList<T> implements List<T> {
                 return element;
             }
         }
+
+        @Override
+        public void remove() {
+            // TODO Auto-generated method stub
+            
+        }
     }
 }

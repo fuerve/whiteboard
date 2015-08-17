@@ -19,7 +19,7 @@ In addition, I want to knock out some implementations of some basic data structu
 * Doubly Linked List (LinkedList). - COMPLETE
 * Stack (ArrayDeque). - COMPLETE
 * Queue (ArrayDeque). - COMPLETE
-* Tree.
+* Tree. - COMPLETE
 * Directed acyclic graph.
 * Heap.
 
@@ -28,7 +28,7 @@ Most of the above structures will be implemented in something very much like the
 The following algorithms will then be implemented, atop the above structures where necessary:
 * Binary search through a list. - COMPLETE
 * Dynamic programming (http://codercareer.blogspot.com/p/dynamic-interview-questions.html).
-* Preorder and postorder traversal of a tree.
+* Preorder and postorder traversal of a tree. - COMPLETE
 * Topological sorting of a directed, acyclic graph.
 * Union-find.
 * Bloom filter.
