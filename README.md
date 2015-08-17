@@ -17,8 +17,8 @@ In addition, I want to knock out some implementations of some basic data structu
 
 * Dynamic array (ArrayList). - COMPLETE
 * Doubly Linked List (LinkedList). - COMPLETE
-* Stack (ArrayDeque).
-* Queue (ArrayDeque).
+* Stack (ArrayDeque). - COMPLETE
+* Queue (ArrayDeque). - COMPLETE
 * Tree.
 * Directed acyclic graph.
 * Heap.
