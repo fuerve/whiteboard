@@ -31,5 +31,5 @@ The following algorithms will then be implemented, atop the above structures whe
 * Preorder and postorder traversal of a tree. - COMPLETE
 * Topological sorting of a directed, acyclic graph.
 * Union-find.
-* Bloom filter.
+* Bloom filter. - COMPLETE
 * Quicksort. - COMPLETE
