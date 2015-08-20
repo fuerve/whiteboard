@@ -20,7 +20,7 @@ In addition, I want to knock out some implementations of some basic data structu
 * Stack (ArrayDeque). - COMPLETE
 * Queue (ArrayDeque). - COMPLETE
 * Tree. - COMPLETE
-* Directed acyclic graph.
+* Directed acyclic graph. - COMPLETE
 * Heap.
 
 Most of the above structures will be implemented in something very much like the corresponding Java interfaces.  I will be implementing against the interfaces as specified (abridged), but I will be deriving the implementations myself for practice.
@@ -29,7 +29,7 @@ The following algorithms will then be implemented, atop the above structures whe
 * Binary search through a list. - COMPLETE
 * Dynamic programming (http://codercareer.blogspot.com/p/dynamic-interview-questions.html).
 * Preorder and postorder traversal of a tree. - COMPLETE
-* Topological sorting of a directed, acyclic graph.
+* Topological sorting of a directed, acyclic graph. - COMPLETE
 * Union-find.
 * Bloom filter. - COMPLETE
 * Quicksort. - COMPLETE
