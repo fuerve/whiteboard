@@ -33,3 +33,6 @@ The following algorithms will then be implemented, atop the above structures whe
 * Union-find.
 * Bloom filter. - COMPLETE
 * Quicksort. - COMPLETE
+
+## Third milestone.
+* Graph coloring.
