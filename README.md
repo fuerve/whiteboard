@@ -36,3 +36,5 @@ The following algorithms will then be implemented, atop the above structures whe
 
 ## Third milestone.
 * Graph coloring.
+* LRU cache.
+* Chess move validator.
