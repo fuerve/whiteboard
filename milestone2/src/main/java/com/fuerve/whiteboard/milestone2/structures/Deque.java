@@ -6,20 +6,7 @@ import java.util.NoSuchElementException;
  * Double-ended queue interface (I need both stacks and queues).
  * I'm not as kind as Java's implementation, which has the offer and poll semantics.
  */
-public interface Deque<T> extends Collection<T> {
-    /**
-     * Removes the next item from the queue.
-     * @return The dequeued item.
-     * @throws NoSuchElementException The queue is empty.
-     */
-    T remove() throws NoSuchElementException;
-    
-    /**
-     * Gets the next item in the queue without dequeuing it.
-     * @return The next item in the queue.
-     */
-    T peek();
-    
+public interface Deque<T> extends Queue<T> {
     /**
      * Pushes an element onto the head of the structure as if it were a stack.
      * @param element The element to push.
