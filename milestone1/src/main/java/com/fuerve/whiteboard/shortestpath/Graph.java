@@ -35,7 +35,7 @@ public class Graph<T> {
     }
     
     /**
-     * Gets the numer of edges in the graph.
+     * Gets the number of edges in the graph.
      * @return The number of edges.
      */
     public int numberOfEdges() {

@@ -15,17 +15,24 @@ So far, the goal is to account for the following interview questions:
 ## First goal complete.  Secondary goal follows.
 In addition, I want to knock out some implementations of some basic data structure and algorithm problems, just to brush up.
 
-* Dynamic array.
-* Stack.
-* Queue.
-* Tree.
-* Directed, acyclic graph.
+* Dynamic array (ArrayList). - COMPLETE
+* Doubly Linked List (LinkedList). - COMPLETE
+* Stack (ArrayDeque). - COMPLETE
+* Queue (ArrayDeque). - COMPLETE
+* Tree. - COMPLETE
+* Directed acyclic graph. - COMPLETE
 * Heap.
 
-* Binary search through an array.
+Most of the above structures will be implemented in something very much like the corresponding Java interfaces.  I will be implementing against the interfaces as specified (abridged), but I will be deriving the implementations myself for practice.
+
+The following algorithms will then be implemented, atop the above structures where necessary:
+* Binary search through a list. - COMPLETE
 * Dynamic programming (http://codercareer.blogspot.com/p/dynamic-interview-questions.html).
-* Preorder and postorder traversal of a tree.
-* Topological sorting of a directed, acyclic graph.
+* Preorder and postorder traversal of a tree. - COMPLETE
+* Topological sorting of a directed, acyclic graph. - COMPLETE
 * Union-find.
-* Bloom filter.
-* Quicksort.
+* Bloom filter. - COMPLETE
+* Quicksort. - COMPLETE
+
+## Third milestone.
+* Graph coloring.
