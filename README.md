@@ -21,7 +21,7 @@ In addition, I want to knock out some implementations of some basic data structu
 * Queue (ArrayDeque). - COMPLETE
 * Tree. - COMPLETE
 * Directed acyclic graph. - COMPLETE
-* Heap.
+* Heap. - COMPLETE
 
 Most of the above structures will be implemented in something very much like the corresponding Java interfaces.  I will be implementing against the interfaces as specified (abridged), but I will be deriving the implementations myself for practice.
 
