@@ -30,7 +30,7 @@ The following algorithms will then be implemented, atop the above structures whe
 * Dynamic programming (http://codercareer.blogspot.com/p/dynamic-interview-questions.html).
 * Preorder and postorder traversal of a tree. - COMPLETE
 * Topological sorting of a directed, acyclic graph. - COMPLETE
-* Union-find.
+* Union-find (disjoint set). - COMPLETE
 * Bloom filter. - COMPLETE
 * Quicksort. - COMPLETE
 
