@@ -225,4 +225,40 @@ public class CollectionsTest {
     public void testSearchNullListLinkedList() {
         assertEquals(-1, Collections.search(null, new Integer(5)));
     }
+    
+    /***/
+    @Test
+    public void testMaximalSumSubsetArray() {
+        final Integer[] testInput = { 1, -2, 3, 10, -4, 7, 2, -5 };
+        final Integer[] expected = { 3, 10, -4, 7, 2 };
+        final Integer[] actual = Collections.maximalSumSubset(testInput);
+        assertArrayEquals(expected, actual);
+    }
+    
+    /***/
+    @Test
+    public void testMaximalSumSubsetList() {
+        final Integer[] testInputArray = { 1, -2, 3, 10, -4, 7, 2, -5 };
+        final List<Integer> testInput = new ArrayList<Integer>();
+        final Integer[] expected = { 3, 10, -4, 7, 2 };
+        
+        for (final Integer i : testInputArray) {
+            testInput.add(i);
+        }
+        
+        final List<Integer> output = Collections.maximalSumSubset(testInput);
+        
+        final Integer[] actual = new Integer[output.size()];
+        for (int i = 0; i < output.size(); i++) {
+            actual[i] = output.get(i);
+        }
+        
+        assertArrayEquals(expected, actual);
+    }
+    
+    /***/
+    public void testMaximalSumSubsetNull() {
+        assertNull(Collections.maximalSumSubset((Integer[]) null));
+        assertNull(Collections.maximalSumSubset((List<Integer>) null));
+    }
 }

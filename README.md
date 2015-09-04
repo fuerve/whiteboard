@@ -1,4 +1,5 @@
 # whiteboard
+## Milestone 1 - COMPLETE
 This is a repository of implementations for whiteboard questions that I've gotten during interviews.
 
 So far, the goal is to account for the following interview questions:
@@ -12,7 +13,7 @@ So far, the goal is to account for the following interview questions:
 * Reversal of a linked list. - COMPLETE
 * Circularly linked list of parameterized type with support for null entries. - COMPLETE
 
-## First goal complete.  Secondary goal follows.
+## Milestone 2 - COMPLETE
 In addition, I want to knock out some implementations of some basic data structure and algorithm problems, just to brush up.
 
 * Dynamic array (ArrayList). - COMPLETE
@@ -21,18 +22,23 @@ In addition, I want to knock out some implementations of some basic data structu
 * Queue (ArrayDeque). - COMPLETE
 * Tree. - COMPLETE
 * Directed acyclic graph. - COMPLETE
-* Heap.
+* Heap. - COMPLETE
 
 Most of the above structures will be implemented in something very much like the corresponding Java interfaces.  I will be implementing against the interfaces as specified (abridged), but I will be deriving the implementations myself for practice.
 
 The following algorithms will then be implemented, atop the above structures where necessary:
+
 * Binary search through a list. - COMPLETE
-* Dynamic programming (http://codercareer.blogspot.com/p/dynamic-interview-questions.html).
+* Dynamic programming (http://codercareer.blogspot.com/p/dynamic-interview-questions.html). - COMPLETE
 * Preorder and postorder traversal of a tree. - COMPLETE
 * Topological sorting of a directed, acyclic graph. - COMPLETE
-* Union-find.
+* Union-find (disjoint set). - COMPLETE
 * Bloom filter. - COMPLETE
 * Quicksort. - COMPLETE
 
-## Third milestone.
+## Milestone 3
+
 * Graph coloring.
+* LRU cache.
+* Chess move validator.
+* Maybe something involving Swing, since that has come up a couple times.
