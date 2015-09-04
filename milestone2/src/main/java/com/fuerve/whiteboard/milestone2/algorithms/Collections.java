@@ -1,5 +1,6 @@
 package com.fuerve.whiteboard.milestone2.algorithms;
 
+import com.fuerve.whiteboard.milestone2.structures.ArrayList;
 import com.fuerve.whiteboard.milestone2.structures.List;
 
 /**
@@ -151,5 +152,59 @@ public final class Collections {
                 return binarySearch(list, element, centerIndex + 1, rightIndex);
             }
         }
+    }
+    
+    /**
+     * Gets the maximal sum subset of the given input.
+     * @param input The input from which to derive the maximal sum subset.
+     * @return The maximal sum subset.
+     */
+    public static List<Integer> maximalSumSubset(final List<Integer> input) {
+        final Integer[] arrayInput = (Integer[]) new Integer[input.size()];
+        for (int i = 0; i < input.size(); i++) {
+            arrayInput[i] = input.get(i);
+        }
+        final Integer[] arrayOutput = maximalSumSubset(arrayInput);
+        final List<Integer> output = new ArrayList<Integer>();
+        for (int i = 0; i < arrayOutput.length; i++) {
+            output.add(arrayOutput[i]);
+        }
+        return output;
+    }
+    
+    /**
+     * Gets the maximal sum subset of the given input.
+     * @param input The input from which to derive the maximal sum subset.
+     * @return The maximal sum subset.
+     */
+    public static Integer[] maximalSumSubset(final Integer[] input) {
+        if (input == null || input.length == 0) {
+            return null;
+        }
+        int currentSum = 0;
+        int greatestSum = Integer.MIN_VALUE;
+        
+        int start = -1, end = 0;
+        
+        for (int i = 0; i < input.length; i++) {
+            if (currentSum == Integer.MIN_VALUE) {
+                currentSum = input[i];
+            } else {
+                currentSum += input[i];
+            }
+            
+            if (currentSum > greatestSum) {
+                greatestSum = currentSum;
+                end = i;
+            } else {
+                start++;
+            }
+        }
+        
+        final Integer[] result = new Integer[(end - start) + 1];
+        for (int i = start, j = 0; i <= end; i++, j++) {
+            result[j] = input[i];
+        }
+        return result;
     }
 }
