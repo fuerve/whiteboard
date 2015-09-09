@@ -39,6 +39,6 @@ The following algorithms will then be implemented, atop the above structures whe
 ## Milestone 3
 
 * Graph coloring.
-* LRU cache.
+* LRU cache. - COMPLETE
 * Chess move validator.
 * Maybe something involving Swing, since that has come up a couple times.
