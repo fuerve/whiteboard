@@ -41,7 +41,7 @@ The following algorithms will then be implemented, atop the above structures whe
 * Graph coloring. - COMPLETE
 * LRU cache. - COMPLETE
 * Chess move validator.
-* Maybe something involving Swing, since that has come up a couple times.
+* Maybe something involving Spring, since that has come up a couple times.
 
 ## Milestone 4
 
