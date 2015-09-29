@@ -40,7 +40,7 @@ The following algorithms will then be implemented, atop the above structures whe
 
 * Graph coloring. - COMPLETE
 * LRU cache. - COMPLETE
-* Chess move validator.
+* Chess move validator. - COMPLETE
 * Maybe something involving Spring, since that has come up a couple times.
 
 ## Milestone 4
