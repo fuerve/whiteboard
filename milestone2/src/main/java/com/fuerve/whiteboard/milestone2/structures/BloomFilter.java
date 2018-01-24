@@ -99,7 +99,7 @@ public class BloomFilter<T> {
     
     /**
      * Borrowing extremely heavily from the Cassandra method (https://github.com/facebookarchive/cassandra/blob/master/src/org/apache/cassandra/utils/Filter.java),
-     * which in turn uses the incremental hashing method found in this paper: http://www.eecs.harvard.edu/~kirsch/pubs/bbbf/esa06.pdf.
+     * which in turn uses the incremental hashing method found in this paper: https://www.eecs.harvard.edu/~michaelm/postscripts/tr-02-05.pdf.
      * @param key The key to hash.
      * @return The resultant bucket of each hashing function.
      */
